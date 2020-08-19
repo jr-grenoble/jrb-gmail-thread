@@ -13,4 +13,4 @@ javascript:(function(){window.jrbgmailthread=window.jrbgmailthread?false:true;co
 
 This is a toggle, i.e. when you press your bookmark a second time, ordering is inverted. Note that you only need to click on the bookmark once in your gmail window. All subsequent threads will be ordered the same.
 
-It only relies on CSS to do the job, using display flex and flex-direction to do the job.
+It only relies on CSS to do the job, using display flex and flex-direction to do the job. The surrounding javascript is only there to change the CSS on the page and act as a toggle. In case gmail changes DOM, the script must be adapted.
