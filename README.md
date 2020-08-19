@@ -12,3 +12,5 @@ javascript:(function(){window.jrbgmailthread=window.jrbgmailthread?false:true;co
 ```
 
 This is a toggle, i.e. when you press your bookmark a second time, ordering is inverted.
+
+It only relies on CSS to do the job, using display flex and flex-direction to do the job.
